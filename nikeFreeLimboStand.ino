@@ -4,10 +4,10 @@
 #include <ArdOSC.h>
 
 byte myMac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-byte myIp[]  = { 192, 168, 0, 177 };
+byte myIp[]  = { 192, 168, 1, 177 };
 int  serverPort  = 8000;
 int destPort=10000;
-byte destIp[] = {192,168,0,7};
+byte destIp[] = {192,168,1,7};
 
 int limbo5Pin = 9;
 int limbo4Pin = 8;
